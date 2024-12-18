@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  segueApp
 //
-//  Created by Musa on 18.12.2024.
+//  Created by Büşra Gazel on 18.12.2024.
 //
 
 import UIKit

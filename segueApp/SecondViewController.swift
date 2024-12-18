@@ -2,7 +2,7 @@
 //  SecondViewController.swift
 //  segueApp
 //
-//  Created by Musa on 18.12.2024.
+//  Created by Büşra Gazel on 18.12.2024.
 //
 
 import UIKit
@@ -10,11 +10,14 @@ import UIKit
 class SecondViewController: UIViewController {
 
     @IBOutlet weak var labelTitle: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    var name = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        nameLabel.text = name
     }
     
 
